@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/pictHome"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:background="@drawable/pict_home" />
+
+    <ImageButton
+        android:id="@+id/caridoct"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/pictHome"
+        android:background="@drawable/caridoct" />
+
+    <ImageButton
+        android:id="@+id/carirs"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/caridoct"
+        android:background="@drawable/carirs" />
+
+    <ImageButton
+        android:id="@+id/ambulance"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/carirs"
+        android:background="@drawable/ambulance" />
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</RelativeLayout>
